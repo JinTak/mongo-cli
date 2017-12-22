@@ -1,4 +1,3 @@
-
 // JIN TAK
 
 var mongo = require("mongodb").MongoClient;
@@ -25,6 +24,7 @@ mongo.connect(url, function(err, db){
   // Prompt #2: VIEW SPECIFIC RESTAURANT
   // ======================================
   // var specificChoice = prompt("Enter name of restaurant you wish to view: ");
+  
   // collection.find({ name: specificChoice}).forEach((restaurant)=>{
   //   console.log(restaurant);
   // });
@@ -74,7 +74,6 @@ mongo.connect(url, function(err, db){
   //     let zipcode = Number(prompt("What is the restaurant's new zip code?: "));
   //     let yelp = prompt("What is the restaurant's new yelp address?: ");
 
-  //     console.log(updateRestaurant);
 
   //     // This function will create a new object with user's inputs, and update the desired restaurant
   //     collection.update({ name: updateRestaurant}, 
